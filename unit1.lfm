@@ -1,0 +1,61 @@
+object Form1: TForm1
+  Left = 350
+  Height = 389
+  Top = 153
+  Width = 668
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Find factor'
+  ClientHeight = 389
+  ClientWidth = 668
+  Color = clBtnFace
+  OnCreate = FormCreate
+  OnPaint = FormPaint
+  Position = poDesktopCenter
+  LCLVersion = '1.2.6.0'
+  object ScrollBar1: TScrollBar
+    Left = 624
+    Height = 344
+    Top = 8
+    Width = 20
+    Kind = sbVertical
+    Max = 10000
+    PageSize = 0
+    TabOrder = 0
+    OnChange = ScrollBar1Change
+  end
+  object Image1: TImage
+    Left = 8
+    Height = 198
+    Top = 8
+    Width = 140
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 15
+    Top = 216
+    Width = 34
+    Caption = 'Label1'
+    ParentColor = False
+  end
+  object Image5: TImage
+    Left = 160
+    Height = 198
+    Top = 8
+    Width = 140
+    OnMouseMove = Image5MouseMove
+  end
+  object Image6: TImage
+    Left = 312
+    Height = 198
+    Top = 8
+    Width = 140
+    OnMouseMove = Image6MouseMove
+  end
+  object Image7: TImage
+    Left = 464
+    Height = 198
+    Top = 8
+    Width = 140
+  end
+end
